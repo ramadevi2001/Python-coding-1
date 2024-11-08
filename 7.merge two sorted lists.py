@@ -1,0 +1,6 @@
+list1=list(map(int,input('enter a list: ').split()))
+list2=list(map(int,input('enter a list: ').split()))
+list1.sort()
+list2.sort()
+list1.extend(list2)
+print(list1)
