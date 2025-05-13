@@ -1,4 +1,4 @@
-def fibonocciseriesupton(n):
+'''def fibonocciseriesupton(n):
     fib_seq=[0,1]
 
     while fib_seq[-2]+fib_seq[-1]<n:
@@ -6,7 +6,15 @@ def fibonocciseriesupton(n):
         fib_seq.append(fib_seq[-2]+fib_seq[-1])
     return fib_seq
 n=9
-print(fibonocciseriesupton(n))
+print(fibonocciseriesupton(n))'''
+
+#sum of digits of a number
+def sumofdigits(n):
+    sum=0
+    for i in n:
+        sum+=1
+    return sum
+print(sumofdigits(1234))
 
 
 
